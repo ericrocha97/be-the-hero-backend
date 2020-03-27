@@ -43,7 +43,7 @@ module.exports = {
     production: {
         client: 'mysql',
         connection: {
-            host : 'remotemysql.com:3306',
+            host : 'remotemysql.com',
             database: 'YDUJZ8x6mX',
             user: 'YDUJZ8x6mX',
             password: 'pA0aMgiIY1'
@@ -53,7 +53,7 @@ module.exports = {
             max: 10
         },
         migrations: {
-            tableName: 'knex_migrations'
+            directory: './src/database/migrations',
         }
     }
 
