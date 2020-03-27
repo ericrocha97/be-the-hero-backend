@@ -41,11 +41,12 @@ module.exports = {
     },
 
     production: {
-        client: 'postgresql',
+        client: 'mysql',
         connection: {
-            database: 'my_db',
-            user: 'username',
-            password: 'password'
+            host : 'remotemysql.com:3306',
+            database: 'YDUJZ8x6mX',
+            user: 'YDUJZ8x6mX',
+            password: 'pA0aMgiIY1'
         },
         pool: {
             min: 2,
